@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameObject : MonoBehaviour
+public class AutoObject : MonoBehaviour
 {
-    public string name;
+    public string objectName { get; set; }
     // Start is called before the first frame update
     void Start()
     {

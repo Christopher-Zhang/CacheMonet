@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AutoCashObject : GameObject
+public class AutoCashObject : AutoObject
 {
     public int income { get; set; }
     public int cost { get; set; }
